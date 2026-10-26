@@ -1,0 +1,39 @@
+{
+  "menu": [
+    {
+      "url": "admin/",
+      "name": "Dashboard",
+      "icon": "<i data-feather='home'></i>",
+      "slug": "admin.home.index"
+    },
+    {
+      "url": "admin/users",
+      "name": "Users",
+      "icon": "<span class='material-symbols-outlined'>person</span>",
+      "slug": "admin.users.index"
+    },
+    {
+      "navheader": "Business Settings",
+      "slug": ""
+    },
+    {
+      "name": "Settings",
+      "icon": "<span class='material-symbols-outlined'>settings</span>",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "admin/business-settings",
+          "name": "Policy Setting",
+          "icon": "circle",
+          "slug": "admin.business-settings.index"
+        },
+        {
+          "url": "admin/business-settings/developer-settings",
+          "name": "Developer Setting",
+          "icon": "circle",
+          "slug": "admin.business-settings.developer-settings"
+        }
+      ]
+    }
+  ]
+}
